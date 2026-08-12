@@ -89,9 +89,6 @@ def create_agent():
         instructions=[
             "Always search the web when the question requires current information.",
             "Always include sources in your answer.",
-            "Always use the DuckDuckGo search tool for every prompt given by the user, regardless of whether you think you already know the answer.",
-            "Before providing your final answer, explicitly summarize the search results you found.",
-            "Always include URLs and sources in your answer.",
         ],
         show_tool_calls=True,
         markdown=True,
